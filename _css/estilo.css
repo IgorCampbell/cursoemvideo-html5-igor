@@ -1,7 +1,11 @@
 @charset "UTF-8";
 body {
-    background-color: white;
+    background-color: #dddddd;
     color: rgba(0, 0, 0, 1);
+}
+div#interface {
+    width: 400px;
+    background-color: #ffffff;
 }
 p {
     text-align: justify;
@@ -54,7 +58,19 @@ nav#menu li {
     background-color: #dddddd;
     padding: 10px;
     margin: 2px;
+    transition: background-color 1s;
+}
+nav#menu li:hover {
+    background-color: #606060;
 }
 nav#menu h1 {
     display: none;
+}
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+nav#menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
